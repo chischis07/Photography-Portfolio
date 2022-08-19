@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Photography Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="home">
+        <div>
+            <img class="bg-img" src="img/background.jpg" alt="">
+        </div>
+        <nav>
+            <div class="nav">
+                <ul class="nav-links1">
+                    <li> 
+                        <a href="index.html">HOME</a> 
+                        <div class="line"></div>
+                    </li>
+                    <li> 
+                        <a href="#works">MY WORKS</a> 
+                        <div class="line"></div>
+                    </li>
+                </ul>
+                <div class="logo">
+                  <a href="index.html"><img src="icons/logo.svg" alt=""> </a>  
+                </div>
+                <ul class="nav-links2">
+                    <li>
+                         <a href="#about">ABOUT</a> 
+                         <div class="line"></div>
+                        </li>
+                    <li> 
+                        <a href="#contact">CONTACT ME</a> 
+                        <div class="line"></div>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+
+        <div class="intro-text">
+            <div>
+                <img src="icons/camera-lens-frame.svg" alt="">
+                <span class="big">Capture</span>   <span class="small">the moment</span>
+                <span class="small2">relive the</span>  <span class="big2">memory.</span>   
+            </div>
+        </div>
+
+        <div class="btt">
+            <a href="#home">
+                <button id="myBtn">#</button>
+            </a>
+        </div>
+    </header>
+
+    <!-- THE BODY -->
+
+    <!-- MY WORKS SECTION -->
+
+    <section class="works" id="works">
+        <div class="title">
+            <p>MY WORKS</p>
+            <img src="icons/Vector 3.svg" alt="">
+        </div>
+
+        <div class="wrapper">
+            <div class="con1">
+                <div>
+                    <img src="img/image1.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/image2.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/image3.jpg" alt="">
+                </div>
+            </div>
+            <div class="con1">
+                <div>
+                    <img src="img/image4.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/image5.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/image6.jpg" alt="">
+                </div>
+            </div>
+            <div class="con1">
+                <div>
+                    <img src="img/image7.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/image8.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/image9.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="title">
+            <p>ABOUT ME</p>
+            <img src="icons/Vector 3.svg" alt="">
+        </div>
+        <div class="about-con">
+            <div>
+                <img src="img/author.jpg" alt="">
+            </div>
+            <div class="content">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    At dolorem reiciendis ab sint enim dolor, accusamus a 
+                    voluptate pariatur quidem fugiat corrupti? 
+                    Ea omnis commodi, illo libero impedit quos iusto?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    At dolorem reiciendis ab sint enim dolor, accusamus a 
+                    voluptate pariatur quidem fugiat corrupti? 
+                    Ea omnis commodi, illo libero impedit quos iusto?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    At dolorem reiciendis ab sint enim dolor, accusamus a 
+                    voluptate pariatur quidem fugiat corrupti? 
+                    Ea omnis commodi, illo libero impedit quos iusto?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    At dolorem reiciendis ab sint.
+                </p>
+           
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+            
+        <div class="con-wrap">
+
+            <div class="tab-title">
+                    <p>CONTACT ME</p>
+            </div>
+       
+            <div class="con-con1">
+            <div class="title">
+                <p>CONTACT ME</p>
+            </div>
+        <img class="camera" src="icons/cameramera.svg" alt="">
+
+        <div class="icons">
+            <img src="icons/facebook.svg" alt="">
+            <img src="icons/twitter.svg" alt="">
+            <img src="icons/IG.svg" alt="">
+            <img src="icons/linkedin.svg" alt="">
+        </div>
+
+       </div>
+
+       <div class="con-con">
+
+        <img class="surface" src="icons/surface1.svg" alt="">
+
+        <form class="form">
+
+        <div class="names">
+           <div class="name-con">
+            <label for="">First Name</label> 
+            <input type="text">
+           </div>
+           <div class="name-con">
+            <label for="">Last Name</label> 
+            <input type="text">
+           </div>
+          </div>
+
+          <div class="name-con">
+            <label for="">Email</label>
+            <input type="email" name="" id="">
+          </div>
+
+          <div class="name-con">
+            <label for="">Subject</label>
+            <input type="text" name="" id="">
+          </div>
+
+          <div class="name-con">
+            <label for="">Message</label>
+            <textarea name="" id="" cols="" rows=""></textarea>
+          </div>
+
+          <div class="submit">
+            <button>Submit</button>
+          </div>
+
+        </form>
+       </div>
+    </div>
+    </section>
+
+
+    <script>
+        //Get the button:
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+    </script>
+
+</body>
+</html>
